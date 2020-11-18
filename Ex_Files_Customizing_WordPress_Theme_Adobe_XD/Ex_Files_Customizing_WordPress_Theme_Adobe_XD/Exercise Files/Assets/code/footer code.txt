@@ -1,0 +1,7 @@
+<i class="fas fa-phone-alt" style="color: #7fdbf7; padding-right: 10px;"></i>111-222-3333
+
+<i class="fas fa-map-marker-alt" style="color: #7fdbf7; padding-right: 10px;"></i>info@bankboards.com
+
+<i class="fas fa-paper-plane" style="color: #7fdbf7; padding-right: 10px;"></i>(map):
+983 W. 3rd Ave.
+Columbus, OH 43212

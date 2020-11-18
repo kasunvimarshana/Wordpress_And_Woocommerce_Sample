@@ -1,0 +1,24 @@
+<form *ngIf=" !searching && init" [formGroup]="search_form" (ngSubmit)="startSearch()">
+  <div class="error" *ngIf="error">{{error}}</div>
+
+  <div class="form-group">
+    <label for="search_term">Search Keyword</label>
+    <input class="form-control" id="search_term" formControlName="search_term">
+  </div>
+
+  <div *ngIf="search_form.controls.search_term.value">
+    <div *ngIf="categories && categories.length" formArrayName="categories">
+      <div class="form-group" *ngFor="let category of categories; let i = index">
+        <label>
+          <span formGroupName="{{i}}">
+            <input type="checkbox" formControlName="{{category.id}}" value="{{category.id}}">
+            {{category.name}}
+          </span>
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <input type="submit" value="Search" class="btn btn-primary">
+
+</form>

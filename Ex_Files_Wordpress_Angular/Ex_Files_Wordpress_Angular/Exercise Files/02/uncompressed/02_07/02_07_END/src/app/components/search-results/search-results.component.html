@@ -1,0 +1,10 @@
+<p *ngIf="results && !results.length">
+  No results found
+</p>
+<div *ngIf="results && results.length">
+  <article id="post-{{post.id}}" *ngFor="let post of results">
+    <h1 [innerHTML]="post.title.rendered"></h1>
+    <div [innerHTML]="post.excerpt.rendered"></div>
+    <a href="{{post.link}}">read more..</a>
+  </article>
+</div>

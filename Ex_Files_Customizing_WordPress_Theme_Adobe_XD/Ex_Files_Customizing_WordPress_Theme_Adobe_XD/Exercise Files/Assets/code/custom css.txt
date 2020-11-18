@@ -1,0 +1,27 @@
+/* Footer, Need to add custom CSS to get rid of nav bullets */
+.nv-content-wrap ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Remove spacing in footer menu */
+.nv-content-wrap ul li {
+   margin-bottom: 0;
+}
+
+/* Remove underlines on nav links in footer */
+.nv-comment-content a, .nv-content-wrap a:not(.button) {
+    text-decoration: none;
+    color: #7fdbf7;
+}
+
+/* Get rid of spacing in between footer and default footer */
+@media (min-width: 960px){
+.nv-index-posts, .nv-single-page-wrap, .nv-single-post-wrap {
+    margin-bottom: 0px;
+    }
+}
+
+
+
+

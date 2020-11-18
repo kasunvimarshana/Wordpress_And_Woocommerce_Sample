@@ -1,0 +1,18 @@
+Course Resources
+
+Digital Sandbox:
+http://stateu.org
+Sign up for a free 30 day trial account to follow along. Use your LinkedIn, Google or Facebook account to sign in. StateU.org uses the same set of tools used by campuses that have implemented the Domain of Ones Own project, piloted at the University of Mary Washington.  StateU.org is hosted by Reclaim Hosting.
+
+Plugins:
+Multisite Clone Duplicator
+Inpsyde Multisite Feed
+Network Privacy
+WordPress MU Domain Mapping - Mentioned by not used. This is a paid plugin for use in Multisite networks using the subdomain configuration plan. 
+
+Other Applications:
+Google Forms http://forms.google.com
+cPanel - Web host control panel
+Installatron - Application installer typically found on web hosts
+
+

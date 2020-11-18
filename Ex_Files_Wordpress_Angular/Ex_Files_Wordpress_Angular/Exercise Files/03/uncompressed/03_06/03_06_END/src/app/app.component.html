@@ -1,0 +1,10 @@
+<div *ngIf="data && data.length">
+  <ul>
+    <li *ngFor="let click of data">
+      <strong>{{click.URL}}</strong> - {{click.Total}}
+    </li>
+  </ul>
+</div><article id="post-{{post.id}}" *ngFor="let post of posts">
+  <h2 [innerHTML]="post.title.rendered"></h2>
+  <a href="#" (click)="showData( $event, post.id )">Show Data</a>
+</article>
